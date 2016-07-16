@@ -1,6 +1,6 @@
 <?php
 
-namespace filipajdacic\yiitwilio;
+namespace unimodern\yiitwilio;
 
 use yii\base\Component;
 use \Services_Twilio;
