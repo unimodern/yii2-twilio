@@ -1,6 +1,6 @@
 {
-    "name": "filipajdacic/yii2-twilio",
-    "description": "This component is YII2 wrapper for Twilio PHP module",
+    "name": "unimodern/yii2-twilio",
+    "description": "This component is YII2 wrapper for Twilio PHP module. Forked from filipajdacic/yii2-twilio to publish stable",
     "type": "library",
     "keywords": ["yii2","extension","twillio","sms","voice","video"],
     "license": "MIT",
@@ -16,7 +16,7 @@
     },
     "autoload": {
         "psr-4": {
-            "filipajdacic\\yiitwilio\\": ""
+            "unimodern\\yiitwilio\\": ""
         }
     }
 }
