@@ -3,7 +3,7 @@
 namespace unimodern\yiitwilio;
 
 use yii\base\Component;
-use \Services_Twilio;
+use \Twilio;
 
 /**
  * YiiTwilio class
@@ -44,7 +44,7 @@ class YiiTwilio extends Component
     public function init()
     {   
           try {
-                $this->twilioClass = new Services_Twilio($this->account_sid, $this->auth_key);
+                $this->twilioClass = new \Twilio\Rest\Client($this->account_sid, $this->auth_key);
           } catch (Exception $e) {
                 throw $e;
           }  
